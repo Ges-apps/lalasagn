@@ -88,7 +88,7 @@ export default function Nav() {
               <button onClick={() => setOpen(false)} className="p-2 text-[#1B6FBF]">
                 <X size={30} />
               </button>
-              <img src="/images/slazzer-preview-m67uk.png" alt="لا لازانی" className="w-14 h-14 object-contain" />
+              <img src="/logo.png" alt="لا لازانی" className="w-14 h-14 object-contain" />
             </div>
             <nav className="flex flex-col items-center justify-center flex-1 gap-8">
               {links.map((link, i) => (
