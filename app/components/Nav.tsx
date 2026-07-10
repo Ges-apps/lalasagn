@@ -104,16 +104,6 @@ export default function Nav() {
                   {link.label}
                 </motion.a>
               ))}
-              <motion.a
-                href="#reservations"
-                onClick={() => setOpen(false)}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.35 }}
-                className="btn-primary mt-4"
-              >
-                رزرو میز
-              </motion.a>
             </nav>
           </motion.div>
         )}
