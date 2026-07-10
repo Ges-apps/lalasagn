@@ -98,7 +98,7 @@ export default function Hero() {
           transition={{ delay: 0.75 }}
           className="font-body text-lg text-[#2A1A0E80] max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          آشپزی ایتالیایی اصیل با مواد تازه، دستورالعمل‌های مادربزرگ و عشق دست‌ساز هر روز صبح.
+          آشپزی ایتالیایی اصیل با مواد تازه، دستورالعمل‌های مادربزرگ و عشق دست‌ساز هر روز صبح
         </motion.p>
 
 

@@ -172,9 +172,6 @@ export default function Menu() {
             <div className="flex justify-center mt-4 mb-8">
               <WavyLine width={160} color="#D4622A" />
             </div>
-            <p className="text-[#2A1A0E80] max-w-xl mx-auto text-lg font-body">
-              هر غذا با مواد تازه روزانه تهیه می‌شود. منو با فصل‌ها تغییر می‌کند.
-            </p>
           </motion.div>
         </div>
 
