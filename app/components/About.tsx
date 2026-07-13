@@ -6,10 +6,8 @@ import { useRef } from 'react';
 import { OliveBranch, BasilLeaf, LemonSlice, WavyLine, CeramicPlate } from './Illustrations';
 
 const stats = [
-  { value: 'آماده‌سازی مواد', unit: '', label: 'روزانه' },
   { value: '۱۰۰٪', unit: '', label: 'مواد تازه روزانه' },
   { value: 'پخت شده', unit: '', label: 'با عشق' },
-  { value: '+۱۲k', unit: '', label: 'مشتری خوشحال' },
 ];
 
 function StatCard({ value, unit, label, delay }: { value: string; unit: string; label: string; delay: number }) {
@@ -138,7 +136,7 @@ export default function About() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-20">
           {stats.map((s, i) => (
             <StatCard key={s.label} {...s} delay={0.1 * i} />
           ))}

@@ -7,7 +7,6 @@ import { Menu, X } from 'lucide-react';
 const links = [
   { label: 'منو', href: '#menu' },
   { label: 'داستان ما', href: '#about' },
-  { label: 'گالری', href: '#gallery' },
 ];
 
 export default function Nav() {
